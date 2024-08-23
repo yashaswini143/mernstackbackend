@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start":"node index.js"
+    "start":"node App.jsx"
   },
   "dependencies": {
     "@react-leaflet/core": "^2.1.0",

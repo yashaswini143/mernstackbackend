@@ -18,7 +18,7 @@ const Port = process.env.PORT;
 const uri = process.env.MongoUrl;
 
 // Middleware
-app.use(cors());
+app.use(cors())
 app.use(express.json());
 
 // Database connection

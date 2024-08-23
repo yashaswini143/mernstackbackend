@@ -12,7 +12,7 @@ import { customerLifeTime } from './Controllers/cltv.js';
 
 
 const app = express();
-const Port = process.env.PORT || 3000;
+const Port = process.env.PORT;
 
 // MongoDB connection string
 const uri = process.env.MongoUrl;
